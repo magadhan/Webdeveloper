@@ -6,10 +6,13 @@
     * {
         font-family: "Pacifico", cursive;
     }
+
     header{
         display: flex;
         flex-direction: row;
-        background-color: aliceblue;
+        background-color: black;
+        color: white;
+        padding-left: 10px;
     }
     nav{
         width: 100%;
@@ -17,10 +20,82 @@
         justify-content: flex-end;
         padding-top: 20px;
     }
-
     a{
         padding-right: 15px;
         text-decoration: none;
         font-size: 22px;
-        color: black;
+        color: white;
+    }
+
+    section{
+        padding-top: 150px;
+        padding-bottom: 150px;
+        padding-left: 10px;
+        width: 100%;
+        height: 100%;
+        background-image: url("/Images/wallpaperIntro.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;  
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3{
+        width:fit-content;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+        font-size: 32px;
+        position: relative;
+        animation: name_animation;
+        animation-duration: 4s;
+    }
+    h4{
+        font-size: 25px;
+    }
+
+    @keyframes name_animation {
+        0% {
+            transform: rotate(0deg);
+            left: 0px;
+        }
+        25% {
+            transform: rotate(20deg);
+            left: 0px;
+        }
+        50% {
+            transform: rotate(0deg);
+            left: 500px;
+        }
+        55% {
+            transform: rotate(0deg);
+            left: 500px;
+        }
+        70% {
+            transform: rotate(0deg);
+            left: 500px;
+            background: #08534b;
+        }
+        100% {
+            transform: rotate(-360deg);
+            left: 0px;
+        }
+    }
+
+    .aboutMe{
+        display: flex;
+        justify-content: center;
+    }
+    h5{
+        font-size: 22px;
+        text-align: center;
+    }
+    #introImg{
+        width: 45%;
+        height: 45%;
+    }
+    p{
+        text-align: center;
+        padding: 100px 50px ;
     }
