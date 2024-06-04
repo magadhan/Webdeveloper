@@ -6,49 +6,21 @@
     * {
         font-family: "Pacifico", cursive;
     }
-    body{
-        background-image: url("/Images/dandelion-445228_1280.jpg");
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    div {
-        line-height: normal;
+    header{
         display: flex;
-    }
-    div a{
-        line-height: normal;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        }  
-    h1 {
-        display: flex;
-        float: left;
-        align-items: flex;
-    }
-    h2{
-        float: right;
-        padding-top: 50px;
-        font-size: 45px;
-        font-weight: lighter;
-        color:rgb(32, 32, 165);
+        flex-direction: row;
+        background-color: aliceblue;
     }
     nav{
+        width: 100%;
         display: flex;
         justify-content: flex-end;
-        align-items: flex-start;
+        padding-top: 20px;
     }
-    a {
-        font-size: x-large;
-        padding: 10px;
+
+    a{
+        padding-right: 15px;
         text-decoration: none;
-    }
-    hr {
-        height: 100vh;
-        background: #f8f8f8;
-        background-image: url("/Images/dark_leaves.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 0;
-        border:0;
+        font-size: 22px;
+        color: black;
     }
