@@ -8,13 +8,17 @@
 
     <link rel="stylesheet" href="/main/style.css" />
   </head>
+
   <body>
+
+    <a class="home" href="#Portfolio">Home</a>
+
     <header>
-      <h1>Portfolio</h1>
+      <div id="Portfolio"><h1>Portfolio</h1></div>
       <nav>
-        <a href="#About Me">About Me</a>
-        <a href="http://127.0.0.1:5500/main/index.html#">Contact Me</a>
-        <a href="http://127.0.0.1:5500/main/index.html#">Projects</a>
+        <a href="#aboutMe">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contactMe">Contact Me</a>
       </nav>
     </header>
     <section>
@@ -22,17 +26,62 @@
       <h3>Athira Unnikrishnan</h3>
       <h4>An Undergraduate Computer Science Student</h4>
     </section>
+    <input type="button" value=>
+
     <hr>
-    <h5>About Me</h5>
+
+    <div id="aboutMe">About Me</div>
     <div class="aboutMe">
-      <img id="introImg" src="/Images/creativity.jpg" alt="Image about Technological Creativity">
-      <p>     
+      <img id="introImg" src="/Images/creativity.jpg" alt="Image about Technological Creativity in Clipart">
+      <p>
       I am a undergraduate sophomore student majoring in computer science,
       studing at SUNY Binghamton University. I am passionate about creating
       new and exciting projects, such as websites and fun illustrations. My
       portfolio contains part of my previous projects as well as my future
       projects, that I aspire to create.
       </p>
+    </div>
+    <hr>
+
+    <div class="project">
+      <div id="projects">Projects</div>
+      <div class="projectList">
+        <h5>Completed Projects</h5>
+        <ul >
+          <li><a href="/Day_1/index1.html">Firework</a></li>
+          <li><a href="/Day_4/index4.html">Escape Room</a></li>
+          <li><a href="/Day_5/index5.html">Identity the Plant</a></li>
+        </ul>
+      </div>
+      <div class="projectList">
+        <h5>Future Projects</h5>
+        <ul >
+          <li>Portfolio</li>
+          <li>Personality Game</li>
+          <li>None</li>
+        </ul>
+      </div>
+      <a id="resume" href="resume.pdf" target="_blank">Resume</a>
+    </div>
+    <hr>
+    
+    <div class="contactMe">
+      <div id="contactMe">Contact Me</div>
+      <form>
+        <div class="form-group">
+          <label>Name: </label>
+          <input type="text" name="name" placeholder="Type your name here">
+        </div>
+        <div class="form-group">
+          <label>Email: </label>
+          <input type="text" name="email" placeholder="Type your email here">
+        </div>
+        <div class="form-group">
+          <label>Message: </label>
+          <textarea name="message" placeholder="Type your message here"></textarea>
+        </div>
+        <input class="button" type="submit" value="Submit">
+      </form>
     </div>
     <hr>
   </body>
