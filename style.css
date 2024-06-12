@@ -24,11 +24,14 @@
         color: white;
         padding-left: 10px;
     }
+    h2{
+        font-size: 30px;
+        }
     nav{
         width: 100%;
         display: flex;
         justify-content: flex-end;
-        padding-top: 20px;
+        align-items: center;
     }
     nav a{
         padding-right: 15px;
@@ -36,6 +39,7 @@
         font-size: 22px;
         color: white;
     }
+
 
     section{
         padding-top: 150px;
@@ -68,10 +72,10 @@
         color: rgb(15, 12, 177);
         text-decoration: none;
     }
-    h2 {
+    h3{
         font-size: 25px;
     }
-    h3{
+    h1 {
         width:fit-content;
         padding: 5px;
         border-radius: 10px;
@@ -81,6 +85,7 @@
         position: relative;
         animation: name_animation;
         animation-duration: 4s;
+        font-size: 30px;
     }
     h4{
         font-size: 25px;
@@ -131,7 +136,7 @@
         width: 45%;
         height: 45%;
     }
-    p{
+    .introPara{
         text-align: center;
         padding: 100px 50px;
         font-size: 20px;
@@ -172,7 +177,7 @@
         height: 240px;
     }
     .button{
-        margin-left: 45%;
+        margin-left: 50%;
         border-width: 5px;
         border-radius: 10px;
         font-size: 18px;
@@ -199,7 +204,7 @@
         border: 1px solid grey;
         margin-left: 40px;
         margin-top: 30px;
-        margin-bottom: 40px;;
+        margin-bottom: 40px;
     }
     .projectList li{
         list-style: square;
@@ -234,4 +239,8 @@
         padding: 5px;
         border-radius: 5px;
         font-size: 18px;
+    }
+    .privacy{
+        display: flex;
+        justify-content: center;
     }
