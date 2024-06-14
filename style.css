@@ -46,7 +46,7 @@
         padding-bottom: 150px;
         padding-left: 10px;
         width: 99.3%;
-        background-image: url("/Images/wallpaperIntro.jpg");
+        background-image: url("/Webdeveloper/Images/wallpaperIntro.jpg");
         background-repeat: no-repeat;
         background-size:cover;  
         background-attachment: fixed;
@@ -154,7 +154,7 @@
     .contactMe{
         padding-top: 20px;
         padding-bottom: 40px;
-        background-image: url("/Images/leaves_dark.png");
+        background-image: url("/Webdeveloper/Images/leaves_dark.png");
         color: white;
         text-shadow: 2px 2px 4px black;
     }
@@ -185,7 +185,7 @@
     }
 
     .project{
-        background-image: url("/Images/background-gradient-lights.jpg");
+        background-image: url("/Webdeveloper/Images/background-gradient-lights.jpg");
         background-repeat: no-repeat;
         background-size: 100%;
         height: 400px;
